@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start": "biome start",
+    "stop": "biome stop",
+    "lint": "biome lint --write --diagnostic-level=warn ./*",
+    "format": "biome format --write ./*",
+    "check": "biome check --write ./*",
+    "ci": "biome ci --verbose --diagnostic-level=error ./*"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4"
+  }
+}
